@@ -2,11 +2,11 @@ import { Metadata } from "next";
 
 export const SITE_CONFIG: Metadata = {
     title: {
-        // write a default title for astra a ai powered website builder suggest something unique and catchy don't use the same words of ai powered website builder give a unique name
-        default: "Astra - AI Powered Website Builder",
-        template: `%s | Astra`
+        // Título padrão único e cativante para o Bemobi AI
+        default: "Bemobi AI - Inovando a Experiência do Cliente",
+        template: `%s | Bemobi AI`,
     },
-    description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+    description: "Bemobi AI oferece soluções inteligentes que utilizam IA para otimizar e transformar a experiência do cliente. Descubra como impulsionar o engajamento e a satisfação dos seus clientes com nossas soluções inovadoras.",
     icons: {
         icon: [
             {
@@ -16,8 +16,8 @@ export const SITE_CONFIG: Metadata = {
         ]
     },
     openGraph: {
-        title: "Astra - AI Powered Website Builder",
-        description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+        title: "Bemobi AI - Soluções de IA para Experiências Excepcionais",
+        description: "Maximize a satisfação do cliente com as soluções de IA da Bemobi AI. Implementamos tecnologias avançadas para otimizar cada ponto de contato com seus clientes.",
         images: [
             {
                 url: "/assets/og-image.png",
@@ -26,14 +26,14 @@ export const SITE_CONFIG: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        creator: "@shreyassihasane",
-        title: "Astra - AI Powered Website Builder",
-        description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+        creator: "@bemobi", 
+        title: "Bemobi AI - Transformando a Experiência do Cliente com IA",
+        description: "Eleve o nível de satisfação dos seus clientes com as soluções de IA da Bemobi AI. Tecnologias inteligentes para otimizar a jornada do cliente.",
         images: [
             {
                 url: "/assets/og-image.png",
             }
         ]
     },
-    metadataBase: new URL("https://astra-app.vercel.app"),
+    metadataBase: new URL("https://bemobi-ai.com"), 
 };
