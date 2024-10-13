@@ -9,6 +9,10 @@
        URL: https://gradient.page */
 
     /* CSS: .bg-gradient { background: var(--gradient) } */
+    --bemobi-primary: #0061f2;
+    --bemobi-secondary: #6226eb;
+    --bemobi-hover:#5eb8ff;
+    --bemobi-gray: #1c1c1c;
     --gradient: linear-gradient(to top left, #007adf, #00ecbc);
 
     --background: 220 65% 3.52%;

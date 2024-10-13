@@ -17,6 +17,10 @@ module.exports = {
     },
     extend: {
       colors: {
+        'bemobi-primary': 'var(--bemobi-primary)',
+        'bemobi-secondary': 'var(--bemobi-secondary)',
+        'bemobi-hover': 'var(--bemobi-hover)',
+        'bemobi-gray': 'var(--bemobi-gray)',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
